@@ -18,12 +18,15 @@
     <ClCompile Include="Monopoly_2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ReadWriteBase.cpp">
+    <ClCompile Include="ReadWriteFile.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.h">
+      <Filter>Файлы заголовков</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ReadWriteBase.h">
+    <ClInclude Include="ReadWriteFile.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="LogFile.h">

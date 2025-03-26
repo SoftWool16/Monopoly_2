@@ -77,4 +77,3 @@ private:
 	std::ofstream log_file;
 };
 
-LogFile Log;

@@ -127,12 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataBase.h" />
     <ClCompile Include="Monopoly_2.cpp" />
-    <ClCompile Include="ReadWriteBase.cpp" />
+    <ClCompile Include="ReadWriteFile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LogFile.h" />
-    <ClInclude Include="ReadWriteBase.h" />
+    <ClInclude Include="ReadWriteFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

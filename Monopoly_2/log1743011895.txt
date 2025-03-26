@@ -1,0 +1,55 @@
+log_file - start
+[T] open "filename.txt"
+[L] open "filename.txt" - success
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [percents] base
+[I] create [addiction] params:0&0
+[I] create [addiction] params:0&0
+[I] create [addiction] params:0&0
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [percents] base
+[I] create [addiction] params:0&0
+[I] create [addiction] params:0&0
+[I] create [addiction] params:0&0
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [percents] with params
+[I] create [addiction] params:11&1
+[I] create [addiction] params:12&2
+[I] create [addiction] params:13&3
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [addiction] base
+[I] create [percents] with params
+[I] create [addiction] params:21&4
+[I] create [addiction] params:22&5
+[I] create [addiction] params:23&6
+[I] save data [percents]
+[I] 0 11 11
+[I] 1 12 12
+[I] 2 13 13
+[I] write to file"filename.txt"
+[I] write to file"filename.txt"
+[I] write to file"filename.txt"
+[I] save data [percents]
+[I] 0 21 21
+[I] 1 22 22
+[I] 2 23 23
+[I] write to file"filename.txt"
+[I] write to file"filename.txt"
+[I] write to file"filename.txt"
+[I] add to file 
+[I] save "filename.txt"
+[I] save... {0 1...}
+[I] save... {1 1...}
+[I] save... {2 1...}
+[I] save... {0 2...}
+[I] save... {1 2...}
+[I] save... {2 2...}
+[I] close "filename.txt"
+log_file - stop
