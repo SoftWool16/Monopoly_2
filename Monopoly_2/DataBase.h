@@ -80,11 +80,18 @@ struct percents {
 
 struct bankClient
 {
+	bankClient(int my_ID) : my_ID(my_ID)
+	{
 
+	}
 	int my_deposit, my_credit;
-	_value_type credit_param, deposit_param;
+	_value_type& credit_param, & deposit_param;
+	bool check(int my_ID_check)
+	{
+		return my_ID_check == my_ID;
+	}
 private:
-
+	int my_ID;
 };
 
 
